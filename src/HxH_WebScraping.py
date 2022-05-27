@@ -10,16 +10,18 @@ import io
 if len(sys.argv) == 2:
     startChapter =int(sys.argv[1])
     n = 10
+    print("\n"," "*20, "-"*15,"\n"," "*20,"Hunter x Hunter\n"," "*20,"-"*15, sep="")
     print("\nDownload stating from chapter: ", startChapter)
     print("3rd parameter not given - 10 Chapters to donwload\n")
 elif len(sys.argv) == 3:
     startChapter = int(sys.argv[1])
     n = int(sys.argv[2])
+    print("\n"," "*20, "-"*15,"\n"," "*20,"Hunter x Hunter\n"," "*20,"-"*15, sep="")
     print("\nDownload stating from chapter: ", startChapter)
     print("Chapters to download:", n, "\n")
 else:
     print("\n"," "*20, "-"*15,"\n"," "*20,"Hunter x Hunter\n"," "*20,"-"*15, sep="")
-    startChapter = int(input("Which chapter do you want to start downloading from:  "))
+    startChapter = int(input("\nWhich chapter do you want to start downloading from:  "))
     n = int(input("How many chapters do you want to donwload:  "))
     print()
 
