@@ -2,8 +2,8 @@
 
 ## How to use:
 
--   git clone <>
--   cd <>
+-   git clone https://github.com/orozcoh/HxH_WebScraping.git
+-   cd HxH_WebScraping
 -   Create virtual environment
 -   pip install -r requirements.txt
 -   source venv/bin/activate
