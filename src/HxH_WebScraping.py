@@ -18,7 +18,7 @@ elif len(sys.argv) == 3:
     print("\nDownload stating from chapter: ", startChapter)
     print("Chapters to download:", n, "\n")
 else:
-    print("\n"," "*20, "-"*15,"\n   Hunter x Hunter\n"," "*20,"-"*15, sep="")
+    print("\n"," "*20, "-"*15,"\n"," "*20,"Hunter x Hunter\n"," "*20,"-"*15, sep="")
     startChapter = int(input("Which chapter do you want to start downloading from:  "))
     n = int(input("How many chapters do you want to donwload:  "))
     print()
