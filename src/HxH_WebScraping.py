@@ -36,7 +36,13 @@ if not os.path.exists(folder_name):
 
 #------------------------------- Download function definition ---------------------------
 def download_chapter(chapter):
-  chapter_str = "0"* (2 if len(str(chapter)) == 1 else 1) + str(chapter)
+  chapter_str = ""
+  
+  if len(str(chapter)) <= 2:
+    chapter_str = "0"* (2 if len(str(chapter)) == 1 else 1)
+
+  chapter_str = chapter_str + str(chapter)
+
   chapter_pdf_name = "./Hunter_X/HxH_" + chapter_str + ".pdf"
 
   font = ImageFont.truetype("./fonts/Road_Rage.otf", 300)
